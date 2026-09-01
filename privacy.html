@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KinetElf 隐私政策</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #120b10; color: #e8ddcf; font: 16px/1.8 -apple-system, "PingFang SC", sans-serif; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { color: #e8a24b; font-size: 28px; } h2 { color: #e8a24b; font-size: 20px; margin-top: 2em; }
+  .sub { color: #9a8d7d; font-size: 14px; }
+  strong { color: #f0c890; } a { color: #e8a24b; }
+  ul { padding-left: 1.4em; } li { margin: .4em 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>KinetElf 隐私政策</h1>
+  <p class="sub">生效日期:2026-09-02 · 适用于 iOS 应用「KinetElf」</p>
+
+  <h2>一句话总结</h2>
+  <p><strong>我们不收集你的任何数据。</strong>精灵档案、对话记录、设置全部只存在你的手机本地;我们没有任何服务器,开发者不经手、不存储、不中转你的任何内容。</p>
+
+  <h2>1. 我们收集的数据</h2>
+  <p>无。KinetElf 不含任何统计 SDK、广告 SDK、追踪器;不申请追踪权限;隐私清单(Privacy Manifest)中申报为零收集、零追踪域名。</p>
+
+  <h2>2. 本地存储</h2>
+  <ul>
+    <li>精灵资料与对话历史:仅保存在设备本地(App 沙盒目录)。</li>
+    <li>你的 API Key:仅保存在 iOS 钥匙串(Keychain),不随备份明文导出。</li>
+    <li>偏好设置:保存在设备本地 UserDefaults。</li>
+  </ul>
+
+  <h2>3. 你主动配置的第三方服务(设备直连)</h2>
+  <p>当你自行填入第三方大模型服务的 API Key(如智谱、DeepSeek、Anthropic 兼容端点)后,你的<strong>对话内容与精灵资料会从你的设备直接发送到你配置的服务商</strong>,仅用于生成回复。该数据传输发生在你与该服务商之间,受其隐私政策约束;开发者不经手、不存储、不中转。你不配置时,App 使用内置离线引擎,一切留在本机。</p>
+  <p>可选的云端语音合成:启用后,精灵的回复文本会从你的设备直接发送到你配置的语音合成服务商,仅用于生成音频,开发者不经手。</p>
+  <p>语音输入使用 Apple 系统语音识别,识别在设备端完成,录音不存储、不上传。</p>
+
+  <h2>4. 权限使用</h2>
+  <ul>
+    <li><strong>蓝牙</strong>:仅用于「近场碰一碰」发现附近同样在养 KinetElf 的用户并交换精灵孢子,在你主动使用该功能时申请,可拒绝,拒绝不影响其他功能。</li>
+    <li><strong>麦克风 / 语音识别</strong>:仅在你按住说话时使用,可拒绝,拒绝后仍可打字对话。</li>
+  </ul>
+  <p>KinetElf 不使用定位,不访问相册、通讯录、健康数据。</p>
+
+  <h2>5. 儿童</h2>
+  <p>KinetElf 不收集任何用户数据,包括儿童数据,无年龄分层差异处理问题。</p>
+
+  <h2>6. 内购</h2>
+  <p>购买通过 Apple App Store 内购完成,支付信息由 Apple 处理,开发者无法获取你的支付凭据。本地仅保存「是否已解锁」状态,并在启动时通过 StoreKit 向 Apple 校验。</p>
+
+  <h2>7. 政策变更</h2>
+  <p>如有变更将在本页更新并更新生效日期。重大变更会在 App 内提示。</p>
+
+  <h2>8. 联系我们</h2>
+  <p>邮箱:<a href="mailto:support@kinet.app">support@kinet.app</a>,或通过 App Store「KinetElf」页面中的「App 支持」链接联系开发者。</p>
+  <p style="margin-top:3em"><a href="index.html">« 返回 KinetElf 介绍页</a></p>
+</div>
+</body>
+</html>
